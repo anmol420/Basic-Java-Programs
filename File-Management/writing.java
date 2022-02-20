@@ -1,4 +1,4 @@
-//Writing Data To The File
+//Writing Data To The Text File
 
 import java.util.*;
 import java.io.*;
