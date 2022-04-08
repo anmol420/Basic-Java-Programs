@@ -3,7 +3,7 @@ package com.company;
 
 /* Check ISC 2016 Question */
 import java.util.*;
-public class rotation {
+public class mat_rotate {
     int[][] a;
     int m;
     public static boolean check(int m) {
@@ -91,7 +91,7 @@ public class rotation {
         System.out.println("Sum Of Diagonal Elements = "+sum);
     }
     public static void main(String[] args) {
-        rotation ob = new rotation();
+        mat_rotate ob = new mat_rotate();
         ob.input();
         System.out.println("Original Matrix");
         ob.display();
