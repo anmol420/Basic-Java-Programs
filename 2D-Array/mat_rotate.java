@@ -1,7 +1,5 @@
-//ignore this line
-package com.company;
-
 /* Check ISC 2016 Question */
+
 import java.util.*;
 public class mat_rotate {
     int[][] a;
