@@ -10,9 +10,10 @@ class emirp {
     }
   }
   void reverse() {
+    int d;
     int n = num,c=0;
     while (n!=0) {
-      int d = n%10;
+      d = n%10;
       c++;
       n/=10;
     }
