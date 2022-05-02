@@ -19,7 +19,7 @@
 <h3>Developer</h3>
 
 👤 anmol420.
-- GitHub: [anmol420](https://www.github.com/anmol240)
+- GitHub: [anmol420](https://www.github.com/anmol420)
 - Discord: [Anmol](https://www.discord.com/users/875986400649052191)
 
 <h3>Contributing</h3>
