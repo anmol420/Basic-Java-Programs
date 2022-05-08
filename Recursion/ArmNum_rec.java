@@ -5,9 +5,9 @@ class ArmNum_rec {
     int n,l;
     public ArmNum_rec(int num) {
         n=num;
-        int n1=n,d=0;
+        int n1=n;
         while (n1!=0) {
-            d=n1%10;
+            n1%=10;
             l++;
             n1/=10;
         }
