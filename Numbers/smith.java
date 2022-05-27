@@ -1,3 +1,5 @@
+package Numbers;
+
 //Smith Number
 
 import java.util.*;

@@ -1,3 +1,5 @@
+package Numbers;
+
 //Prints The GCD
 
 import java.util.Scanner;

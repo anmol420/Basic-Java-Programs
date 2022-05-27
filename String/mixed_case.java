@@ -1,3 +1,5 @@
+package String;
+
 /*
 Write a program in Java to enter a string in a mixed case. Arrange all the
 letters of string such that all the lower case characters are followed by the

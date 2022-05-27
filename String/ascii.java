@@ -1,3 +1,5 @@
+package String;
+
 /*  Write a program in Java to enter the string. Count and display:
 
     The character with lowest ASCII code in lower case
