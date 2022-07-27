@@ -12,20 +12,21 @@ public class mat_rotate {
         }
     }
     public void input() {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter The Number Of Elements Of The Array");
-        m = sc.nextInt();
-        if (!(check(m))) {
-            System.out.println("Out Of Range !!");
-            return;
-        }
-        a = new int[m][m];
-        System.out.println("Enter The Number Of Elements");
-        for (int i=0;i<m;i++) {
-            for (int j=0;j<m;j++) {
-                if ((a[i][j] = sc.nextInt())<0) {
-                    System.out.println("Less Than 1 Not Allowed !!");
-                    return;
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.println("Enter The Number Of Elements Of The Array");
+            m = sc.nextInt();
+            if (!(check(m))) {
+                System.out.println("Out Of Range !!");
+                return;
+            }
+            a = new int[m][m];
+            System.out.println("Enter The Number Of Elements");
+            for (int i=0;i<m;i++) {
+                for (int j=0;j<m;j++) {
+                    if ((a[i][j] = sc.nextInt())<0) {
+                        System.out.println("Less Than 1 Not Allowed !!");
+                        return;
+                    }
                 }
             }
         }
