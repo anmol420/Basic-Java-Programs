@@ -1,6 +1,5 @@
 /*To Transpose A Matrix Without Using Another Matrix*/
 
-import java.util.*;
 public class transpose {
     public static void display(int a[][]) {
         int m = a.length; //no. of rows
