@@ -35,7 +35,10 @@ class goldbatch {
             System.out.println("Not A Even Number");
             return;
         }
-        
+        if (n<9 || n>50) {
+            System.out.println("Invalid");
+            return;
+        }
         System.out.println("Prime Pairs ->");
         for (int i=n;i>=1;i--) {
             for (int j=1;j<=i;j++) {
