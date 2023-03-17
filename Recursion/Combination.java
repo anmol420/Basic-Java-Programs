@@ -1,6 +1,8 @@
+// Purpose: To find the combination of n and k (nCk)
+
 import java.util.Scanner;
 public class Combination {
-    int n,k;
+    static int n,k;
     public Combination() {
         n=0;
         k=0;
@@ -11,6 +13,10 @@ public class Combination {
         n = in.nextInt();
         System.out.print("Enter k: ");
         k = in.nextInt();
+        if (k>n) {
+            System.out.println("k must be less than or equal to n");
+            System.exit(0);
+        }
     }
     public static int fact(int n) {
         if(n==0)
