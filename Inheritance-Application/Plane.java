@@ -1,5 +1,3 @@
-import Numbers.prime_adam;
-
 // super class
 class Plane {
     protected int x1,y1;
